@@ -33,5 +33,14 @@ My Fav. vim settings
 
         $ git submodule foreach git pull
         
+# Installing this vim env on another machine
+
+        $ cd ~
+        $ git clone git clone https://github.com/deanboole/dean.vim.git ~/.vim
+        $ ln -s ~/.vim/vimrc ~/.vimrc
+        $ cd ~/.vim
+        $ git submodule init
+        $ git submodule update
+        
 [ref](http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/)
 
