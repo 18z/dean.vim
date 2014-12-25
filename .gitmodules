@@ -7,3 +7,6 @@
 [submodule "bundle/Pydiction"]
 	path = bundle/Pydiction
 	url = https://github.com/vim-scripts/Pydiction.git
+[submodule "bundle/bash-support.vim"]
+	path = bundle/bash-support.vim
+	url = https://github.com/vim-scripts/bash-support.vim.git
