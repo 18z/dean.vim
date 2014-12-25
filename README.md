@@ -26,6 +26,7 @@ My Fav. vim settings
 5. Add submodule
 
         $ git submodule add https://github.com/majutsushi/tagbar.git bundle/tagbar
+        $ git submodule add https://github.com/vim-scripts/AutoComplPop.git bundle/AutoComplPop
         $ git submodule init
         $ git submodule update
 
