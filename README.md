@@ -34,7 +34,7 @@ My Fav. vim settings
 
 6. updating every submodule
 
-        $ git submodule foreach git pull
+        $ git submodule foreach --recursive git pull origin master
         
 # Installing this vim env on another machine
 
