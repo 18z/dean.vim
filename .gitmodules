@@ -1,15 +1,20 @@
 [submodule "bundle/tagbar"]
 	path = bundle/tagbar
 	url = https://github.com/majutsushi/tagbar.git
+    ignore = dirty
 [submodule "bundle/AutoComplPop"]
 	path = bundle/AutoComplPop
 	url = https://github.com/vim-scripts/AutoComplPop.git
+    ignore = dirty
 [submodule "bundle/Pydiction"]
 	path = bundle/Pydiction
 	url = https://github.com/vim-scripts/Pydiction.git
+    ignore = dirty
 [submodule "bundle/bash-support.vim"]
 	path = bundle/bash-support.vim
 	url = https://github.com/vim-scripts/bash-support.vim.git
+    ignore = dirty
 [submodule "bundle/nerdtree"]
 	path = bundle/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
+    ignore = dirty
