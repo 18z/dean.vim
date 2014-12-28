@@ -31,6 +31,7 @@ My Fav. vim settings
         $ git submodule add https://github.com/vim-scripts/bash-support.vim.git bundle/bash-support.vim 
         $ git submodule add https://github.com/scrooloose/nerdtree.git bundle/nerdtree
         $ git submodule add https://github.com/tpope/vim-markdown.git bundle/vim-markdown 
+		$ git submodule add https://github.com/kien/ctrlp.vim.git bundle/ctrlp.vim
 		$ git submodule init
         $ git submodule update
 
