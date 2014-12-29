@@ -37,8 +37,8 @@ My favorite vim settings
 
 6. Commit
 
-	$ git add .
-	$ git commit -m "Add submodules"
+		$ git add .
+		$ git commit -m "Add submodules"
 
 7. updating every submodule
 
