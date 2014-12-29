@@ -1,5 +1,5 @@
 ## dean.vim
-My Fav. vim settings
+My favorite vim settings
 
 1. Install curl tig ctags
 
@@ -31,11 +31,16 @@ My Fav. vim settings
         $ git submodule add https://github.com/vim-scripts/bash-support.vim.git bundle/bash-support.vim 
         $ git submodule add https://github.com/scrooloose/nerdtree.git bundle/nerdtree
         $ git submodule add https://github.com/tpope/vim-markdown.git bundle/vim-markdown 
-		$ git submodule add https://github.com/kien/ctrlp.vim.git bundle/ctrlp.vim
-		$ git submodule init
+	$ git submodule add https://github.com/kien/ctrlp.vim.git bundle/ctrlp.vim
+	$ git submodule init
         $ git submodule update
 
-6. updating every submodule
+6. Commit
+
+	$ git add .
+	$ git commit -m "Add submodules"
+
+7. updating every submodule
 
         $ git submodule foreach --recursive git pull origin master
         
