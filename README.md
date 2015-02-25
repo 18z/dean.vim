@@ -1,28 +1,28 @@
 ## dean.vim
 My favorite vim settings
 
-1. Install curl tig ctags
+1.Install curl tig ctags
 
 ```bash
 apt-get update
 apt-get install curl tig ctags
 ```
 
-2. Install Pathogen
+2.Install Pathogen
 
 ```bash
 mkdir -p ~/.vim/autoload ~/.vim/bundle && \
 curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 ```
 
-3. Add Pathogen settings in vimrc
+3.Add Pathogen settings in vimrc
 
 ```bash
 call pathogen#infect()
 call pathogen#helptags()
 ```
   
-4. Initial commit
+4.Initial commit
 
 ```bash
 $ cd .vim
@@ -31,7 +31,7 @@ $ git add .
 $ git commit -m "Initial commit"
 ```
 
-5. Add submodule
+5.Add submodule
 
 ```bash
 $ git submodule add https://github.com/majutsushi/tagbar.git bundle/tagbar
@@ -46,14 +46,14 @@ $ git submodule init
 $ git submodule update
 ```
 
-6. Commit
+6.Commit
 
 ```bash
 $ git add .
 $ git commit -m "Add submodules"
 ```
 
-7. updating every submodule
+7.updating every submodule
 
 ```bash
 $ git submodule foreach --recursive git pull origin master
