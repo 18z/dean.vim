@@ -29,3 +29,4 @@
 [submodule "bundle/tComment"]
 	path = bundle/tComment
 	url = https://github.com/vim-scripts/tComment.git
+	ignore = dirty
